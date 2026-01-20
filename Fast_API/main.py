@@ -5,7 +5,7 @@ from fastapi import FastAPI, Path, HTTPException, Query
 # HTTPException -> to handle exceptions
 
 import json
-# to handle json data
+# to handle json data``
 
 app = FastAPI()
 
