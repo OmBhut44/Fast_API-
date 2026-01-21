@@ -48,5 +48,15 @@
         "weight": 75,
         "bmi": 31.22,
         "verdict": "Obese"
+    },
+    "P006": {
+        "name": "Devil",
+        "city": "Mumbai",
+        "age": 21,
+        "gender": "Male",
+        "height": 5.5,
+        "weight": 80.0,
+        "bmi": 26446.28,
+        "verdict": "Obesity"
     }
 }
