@@ -1,3 +1,9 @@
+# What is field validator in pydantic?
+# -> A field validator is a method that allows you to define custom validation logic for specific fields in a Pydantic model.
+# This enables you to enforce additional constraints or transformations on the data before it is accepted into the model.
+# Example: Ensuring email belongs to specific domains, capitalizing the first letter of a name etc.
+
+
 from pydantic import BaseModel, EmailStr, AnyUrl, Field, field_validator
 
 # build-in custom data types: EmailStr, AnyUrl

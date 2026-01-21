@@ -1,3 +1,9 @@
+# What is data validation in pydantic?
+# -> Data validation in Pydantic is the process of ensuring that the data being modeled adheres to specified types and constraints.
+# Pydantic automatically validates the data when creating model instances, ensuring that the data is of the correct type and format.
+# Example: Ensuring email is in valid format, age is an integer, weight is a float, or the url of your linkedin profile is valid etc.
+
+
 from pydantic import BaseModel, EmailStr, AnyUrl
 
 # build-in custom data types: EmailStr, AnyUrl

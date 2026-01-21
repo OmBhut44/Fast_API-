@@ -1,3 +1,9 @@
+# What is pydantic model in pydantic?
+# -> A Pydantic model is a class that inherits from Pydantic's BaseModel.
+# It is used to define the structure and validation rules for data, allowing you to create data models with type annotations.
+# Example: Creating a Patient model with fields like name, age, weight, married etc.
+
+
 from pydantic import BaseModel
 from typing import Optional
 

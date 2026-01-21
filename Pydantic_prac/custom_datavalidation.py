@@ -1,3 +1,12 @@
+# What is custom data validation in pydantic?
+# -> Custom data validation in Pydantic allows you to enforce specific rules and constraints on the data being modeled.
+# This ensures that the data adheres to certain criteria before being accepted into the model.
+# Example: Ensuring age is between 0 and 120, weight is a positive number, email is valid format etc.
+
+
+# in easy words, iska matlab hai ki hum apne data ke liye kuch specific rules bana sakte hain jisse data valid ho jaye.
+# age 0 se 120 ke beech hona chahiye, weight positive number hona chahiye, email valid format mein hona chahiye etc.
+
 from pydantic import BaseModel, EmailStr, AnyUrl, Field
 
 # build-in custom data types: EmailStr, AnyUrl
