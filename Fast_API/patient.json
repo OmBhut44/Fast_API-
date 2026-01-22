@@ -31,11 +31,11 @@
     },
     "P004": {
         "name": "Arjun Verma",
-        "city": "America",
+        "city": "Mumbai",
         "age": 40,
         "gender": "male",
         "height": 1.8,
-        "weight": 99.0,
+        "weight": 90.0,
         "bmi": 27.78,
         "verdict": "Normal"
     },
