@@ -131,7 +131,7 @@ def predict_premium(data: UserInput):
         "city_tier": data.city_tier,
         "income_lpa": data.income_lpa,
         "occupation": data.occupation
-    }])
+    }]) 
 
     # Predict using trained ML model
     prediction = model.predict(input_df)[0]
